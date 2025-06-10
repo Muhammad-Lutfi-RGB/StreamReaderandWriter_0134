@@ -33,3 +33,7 @@ int main() {
         while (getline (infile, baris)) {
             //dan tampilkan di sini
             cout << baris << '\n';
+    }
+    //tutup file tersebut setelah selesai
+    infile.close();
+}
